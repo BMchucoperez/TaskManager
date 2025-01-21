@@ -19,11 +19,10 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
 
 Primero, clona el repositorio en tu máquina local:
 
-```bash
 git clone https://github.com/BMchucoperez/TaskManager.git
 cd TaskManager
 
-2. Configurar la base de datos
+### 2. Configurar la base de datos
 Crear la base de datos:
 
 Abre HeidiSQL (o cualquier cliente de MySQL) y crea una base de datos llamada taskmanager.
@@ -54,7 +53,7 @@ DB_NAME=taskmanager
 PORT=5001
 Asegúrate de reemplazar los valores con los de tu configuración de MySQL.
 
-3. Configurar el backend (server)
+### 3. Configurar el backend (server)
 Instalar dependencias:
 
 Navega a la carpeta server e instala las dependencias:
@@ -72,7 +71,7 @@ Copy
 npm start
 El servidor estará disponible en http://localhost:5001.
 
-4. Configurar el frontend (src)
+### 4. Configurar el frontend (src)
 Instalar dependencias:
 
 Navega a la carpeta src e instala las dependencias:
@@ -99,10 +98,10 @@ Copy
 npx react-native run-ios
 Asegúrate de tener un emulador configurado o un dispositivo conectado.
 
-5. Acceder a la aplicación
+### 5. Acceder a la aplicación
 Una vez que el servidor y la aplicación estén en ejecución, podrás acceder a la aplicación desde tu emulador o dispositivo físico.
 
-Estructura del proyecto
+### Estructura del proyecto
 server/: Contiene el backend desarrollado con Node.js y Express.
 
 controllers/: Lógica de los controladores.
